@@ -10,14 +10,6 @@ The bot performs the following tasks:
 4. Iterates over the links in the CSV file sending connection request to each of them along-with extracting their name.
 5. Updates the Connection details into a **MySQL** database using **mysql-connector-python**.
 
-## Motivation
-I am a **Marketing Executive** for North-East India's largest annual techno-management fest **Techniche** conducted solely by the student body of **Indian Institute of Technology Guwahati**.
-As a fresher in Techniche one of my first tasks was to conduct profiling and listing of various companies from a particular sector that could be our potential financial partners for the event.
-
-This involved hours of scouring through LinkedIn and sending connection requests to marketing personnel of targeted companies. During this tedious and mundane journey of profiling, I decided to automate the process using 
-web scraping, web automation and database management to aid me in my pursuit.
-
-I used DBMS instead of excel sheets to create a concrete database of profiles that can be used by upcoming freshers as well and also to keep a centralized directory for storing relevant profiles for utilizing in other Institute events too.
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -30,7 +22,7 @@ Before you begin, ensure you have met the following requirements:
 ## Installation
 1. Clone the Repository:
 ```bash
-git clone https://github.com/NemesisXVI/linkedin-auto-connect-bot.git
+git clone https://github.com/Sakshi-Kumari-113/Linkedin-Auto-Connection-Bot.git
 cd linkedin-auto-connect-bot
 ```
 2. Install required Packages:
@@ -106,7 +98,3 @@ option obtain their phone_no. and email ids and update them in your database cor
 Once you feel like you have a robust database, group the database according to company name and start your cold callings.
 
 **Enjoy!!**
-
-## Support
-For any queries related to the bot, contact me through my socials.
-
